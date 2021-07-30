@@ -1,0 +1,8 @@
+.cpcache/
+
+node_modules/
+.shadow-cljs
+resources/public/manifest.json
+resources/public/out/
+package-lock.json
+

@@ -1,0 +1,7 @@
+{:deps true
+ :nrepl {:port 8899
+         :init-ns choice.main}
+ :builds {:ext {:target :chrome-extension
+                :extension-dir "resources/public/"
+                :compiler-options {:closure-output-charset #_"UTF-8" "US-ASCII"}
+                :manifest-file "resources/public/manifest.edn"}}}
